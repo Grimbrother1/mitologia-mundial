@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitología Mundial</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #e60000;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            color: #e60000;
+        }
+        nav {
+            background-color: #1a1a1a;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #e60000;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 20px;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+            border-top: 2px solid #e60000;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+        .myth-section {
+            border-bottom: 2px solid #e60000;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+        .myth-section h2 {
+            color: #e60000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mitología Mundial</h1>
+    </header>
+    <nav>
+        <a href="#intro">Introducción</a>
+        <a href="#mythologies">Mitologías</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <section id="intro">
+        <h2>Introducción</h2>
+        <p>Bienvenido a mi página dedicada a la mitología de todo el mundo. Aquí exploraremos las historias, dioses, héroes y criaturas que han capturado la imaginación de la humanidad a lo largo de los siglos. Desde los mitos antiguos hasta las leyendas urbanas modernas, esta página es un viaje a través de la rica tapeztería de la mitología global.</p>
+    </section>
+    <section id="mythologies">
+        <div class="myth-section">
+            <h2>Mitología Griega</h2>
+            <p>La mitología griega es rica en historias de dioses poderosos, héroes valientes y criaturas míticas. Desde Zeus en el Monte Olimpo hasta las aventuras de Hércules, estas historias han influido profundamente en la cultura y el arte occidental.</p>
+        </div>
+        <div class="myth-section">
+            <h2>Mitología Nórdica</h2>
+            <p>La mitología nórdica nos trae las epopeyas de los dioses vikingos, incluyendo a Odín, Thor y Loki. Estas historias están llenas de batallas épicas, traiciones y un sentido de destino que culmina en el Ragnarök, el fin del mundo.</p>
+        </div>
+        <div class="myth-section">
+            <h2>Mitología Egipcia</h2>
+            <p>En el corazón del antiguo Egipto, los dioses y diosas como Ra, Osiris e Isis dominaban las creencias de las personas. Los mitos egipcios exploran temas de vida, muerte y resurrección, reflejando la importancia del Nilo y la tierra fértil que sustentaba a la civilización egipcia.</p>
+        </div>
+        <div class="myth-section">
+            <h2>Mitología Japonesa</h2>
+            <p>La mitología japonesa está llena de dioses, espíritus y criaturas sobrenaturales. Desde los kami del sintoísmo hasta las leyendas de samuráis y yokai, estas historias ofrecen una visión fascinante de la espiritualidad y la cultura japonesa.</p>
+        </div>
+        <div class="myth-section">
+            <h2>Mitología Mesopotámica</h2>
+            <p>La antigua Mesopotamia, cuna de la civilización, nos ofrece mitos que incluyen a deidades como Enlil, Ishtar y Marduk. Estas historias revelan las creencias y valores de algunas de las primeras sociedades humanas.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Si tienes preguntas o comentarios, no dudes en contactarme a través de mi correo electrónico: <a href="mailto:contacto@mitologia-mundial.com" style="color: #e60000;">contacto@mitologia-mundial.com</a>.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Mitología Mundial. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
